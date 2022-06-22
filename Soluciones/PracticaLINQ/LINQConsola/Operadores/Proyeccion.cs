@@ -67,7 +67,10 @@ namespace LINQConsola.Operadores
                 //        $"CORREO ELECTRÓNICO: { persona.CorreoElectronico,-10}");
                 //});
 
+
+
             }
+            Console.ReadKey();
         }
     }
 }
