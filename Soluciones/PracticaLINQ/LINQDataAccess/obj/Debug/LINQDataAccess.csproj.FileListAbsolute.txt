@@ -1,0 +1,12 @@
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\LINQDataAccess.dll.config
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\LINQDataAccess.dll
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\LINQDataAccess.pdb
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\obj\Debug\LINQDataAccess.csproj.AssemblyReference.cache
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\obj\Debug\LINQDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\obj\Debug\LINQDataAccess.csproj.CopyComplete
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\obj\Debug\LINQDataAccess.dll
+C:\Users\Will\source\repos\PracticaLINQ\LINQDataAccess\obj\Debug\LINQDataAccess.pdb
