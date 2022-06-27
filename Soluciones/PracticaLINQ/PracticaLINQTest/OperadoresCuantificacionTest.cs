@@ -151,14 +151,20 @@ namespace PracticaLINQTest
                     new Cliente{ Nombre = "Juan Perez", Fruta = new string[] { "manzana", "pera", "naranja" } },
                     new Cliente{ Nombre = "Mario Vera", Fruta = new string[] { "limon", "mandarina", "platano" } },
                     new Cliente{ Nombre = "Carmen Andrade", Fruta = new string[] { "pera", "platano", "piña" } },
-                    new Cliente{ Nombre = "Fabiola Gonzalez", Fruta = new string[] { "uvas", "sandia", "manzana" } }
+                    new Cliente{ Nombre = "Fabiola Gonzalez", Fruta = new string[] { "uvas", "sandia", "manzana" } },
+                    new Cliente{ Nombre = "Carlos Ramon", Fruta = new string[] { "kiwi", "melon", "fresa" } }
                 };
 
             string fruta = "manzana"; //"uvas", "manzana";
+            string fruta2 = "melon";
 
-            var listadoClientes = from client in clientes
-                                  where client.Fruta.Contains(fruta)
-                                  select client.Nombre;
+            //var listadoClientes = from client in clientes
+            //                      where client.Fruta.Contains(fruta) || client.Fruta.Contains(fruta2)
+            //                      select client.Nombre;
+
+            var listadoClientes = clientes.Where(c => c.Fruta.Contains(fruta) || c.Fruta.Contains(fruta2))
+                                    .Select(c => c.Nombre);
+
 
             listadoClientes.ToList().ForEach(cliente => {
                 Console.WriteLine(cliente);

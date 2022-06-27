@@ -75,19 +75,22 @@ namespace PracticaLINQTest
         {
             string[] palabras = new string[] {
                 "mesa",
+                "escritorio",
                 "silla",
+                "casa",
                 "patio",
                 "cocina",
                 "cuarto",
                 "habitación",
-                "cama",
-                "mueble",
-                "casa"
+                "escalera"
             };
 
             IEnumerable<string> consulta = from palabra in palabras
-                                           where palabra.Length <= 4
-                                        select palabra;
+                                           where palabra.Length > 4 && palabra.Length <= 8
+                                           select palabra;
+
+            //IEnumerable<string> consulta = palabras.Where(p => p.Length > 4 && p.Length <= 8).Select(p => p);
+
 
             foreach (var item in consulta)
             {
@@ -100,13 +103,19 @@ namespace PracticaLINQTest
         {
             using (var db = new CursosVirtualesEntities())
             {
-                var paisesAmerica =
-                    from pais in db.Paises
-                    where pais.Continentes.Nombre.Contains("América")
-                    && pais.Poblacion > 10000000
-                    && pais.Establecido >= 1930
-                    orderby pais.ContinenteId ascending, pais.Nombre ascending
-                    select pais;
+                //var paisesAmerica =
+                //    from pais in db.Paises
+                //    where pais.Continentes.Nombre.Contains("América")
+                //    && pais.Poblacion > 10000000
+                //    && pais.Establecido >= 1930
+                //    orderby pais.ContinenteId ascending, pais.Nombre ascending
+                //    select pais;
+
+                var paisesAmerica = db.Paises.Where(p => p.Continentes.Nombre.Contains("América"))
+                    .Where(p => p.Poblacion > 10000000)
+                    .Where(p => p.Establecido >= 1930)
+                    .OrderBy(p => p.ContinenteId).ThenBy(p => p.Nombre)
+                    .Select(p => p);
 
                 //var paisesAmericaOEuropa =
                 //    from pais in db.Paises

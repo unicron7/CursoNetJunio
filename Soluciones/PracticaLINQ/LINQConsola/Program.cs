@@ -12,23 +12,23 @@ namespace LINQConsola
     {
         static void Main(string[] args)
         {
-            //using (var db = new CursosVirtualesEntities())
-            //{
-            //    //IEnumerable<Continentes> continentes = from cont in db.Continentes
-            //    //                                       select cont;
+            using (var db = new CursosVirtualesEntities())
+            {
+                IEnumerable<Continentes> continentes = from cont in db.Continentes
+                                                       select cont;
 
-            //    //IEnumerable<string> idiomas = db.Cursos.OrderBy(p => p.Idioma).Select(p => p.Idioma).Distinct();
+                foreach (var continente in continentes)
+                {
+                    Console.WriteLine($" Id: {continente.ContinenteId}, Nombre: {continente.Nombre}");
+                }
 
-            //    //foreach (var continente in continentes)
-            //    //{
-            //    //    Console.WriteLine($" Id: {continente.ContinenteId}, Nombre: {continente.Nombre}");
-            //    //}
+                IEnumerable<string> idiomas = db.Cursos.OrderBy(p => p.Idioma).Select(p => p.Idioma).ToList();
 
-            //    //foreach (var idioma in idiomas)
-            //    //{
-            //    //    Console.WriteLine($"{idioma}");
-            //    //}
-            //}
+                foreach (var idioma in idiomas)
+                {
+                    Console.WriteLine($"{idioma}");
+                }
+            }
 
             //Console.ReadKey();
 

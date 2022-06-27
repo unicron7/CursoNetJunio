@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Continente>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+   <table>
+       <thead>
+        <tr>
+            <th>
+                @Html.Label("Id")
+            </th>
+            <th>
+                @Html.Label("Nombre")
+            </th>
+            <th>
+                @Html.Label("Estado")
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.ContinenteId</th>
+                    <th>@item.Nombre</th>
+                    <th>@item.Estado</th>
+                </tr>
+            }
+    </tbody>
+   </table>
+
+</div>
