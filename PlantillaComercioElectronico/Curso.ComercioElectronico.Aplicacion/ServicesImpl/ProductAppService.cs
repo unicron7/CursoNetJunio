@@ -11,16 +11,21 @@ namespace Curso.ComercioElectronico.Aplicacion.ServicesImpl
 {
     public class ProductAppService : IProductAppService
     {
-        private readonly IProductRepository productRepository;
+        private readonly IGenericRepository<Product> repository;
 
-        public ProductAppService(IProductRepository productRepository)
+        public ProductAppService(IGenericRepository<Product> repository)
         {
-            this.productRepository = productRepository;
+            this.repository = repository;
         }
 
         public async Task<ICollection<Product>> GetAsync()
         {
-            return await productRepository.GetAsync();
+            return await repository.GetAsync();
+        }
+
+        public async Task<Product> GetAsync(Guid id)
+        {
+            return await repository.GetAsync(id);
         }
     }
 }

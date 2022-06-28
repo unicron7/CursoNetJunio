@@ -1,0 +1,36 @@
+﻿using Curso.ComercioElectronico.Dominio.Entities.Base;
+using Curso.ComercioElectronico.Dominio.Repositories;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Curso.ComercioElectronico.Infraestructura.Repositories
+{
+    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+    {
+        private readonly ComercioElectronicoDbContext context;
+
+        public GenericRepository(ComercioElectronicoDbContext context)
+        {
+            this.context = context;
+        }
+
+        public async Task<ICollection<T>> GetAsync()
+        {
+            return await context.Set<T>().ToListAsync();
+        }
+
+        public async Task<T> GetAsync(string code)
+        {
+            return await context.Set<T>().FindAsync(code);
+        }
+
+        public async Task<T> GetAsync(Guid id)
+        {
+            return await context.Set<T>().FindAsync(id);
+        }
+    }
+}

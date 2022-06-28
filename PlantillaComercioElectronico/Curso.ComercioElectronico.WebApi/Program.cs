@@ -30,6 +30,7 @@ builder.Services.AddSwaggerGen();
 
 //Forma. Generic
 //Repositorios
+builder.Services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddTransient<ICatalogoRepositorio, CatalogoRepositorio>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
@@ -38,6 +39,7 @@ builder.Services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
 //Servicios de aplicacion
 builder.Services.AddTransient(typeof(ICatalogoAplicacion), typeof(CatalogoAplicacion));
 builder.Services.AddTransient<IProductAppService, ProductAppService>();
+builder.Services.AddTransient<IBrandAppService, BrandAppService>();
 
 
 

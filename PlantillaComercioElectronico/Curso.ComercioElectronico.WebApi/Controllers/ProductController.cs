@@ -22,5 +22,11 @@ namespace Curso.ComercioElectronico.WebApi.Controllers
         {
             return await productAppService.GetAsync();
         }
+
+        [HttpGet("{id}")]
+        public async Task<Product> GetAsync(Guid id)
+        {
+            return await productAppService.GetAsync(id);
+        }
     }
 }
