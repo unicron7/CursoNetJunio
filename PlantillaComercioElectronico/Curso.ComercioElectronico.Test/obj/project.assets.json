@@ -5941,11 +5941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Test\\Curso.ComercioElectronico.Test.csproj",
+      "projectUniqueName": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Test\\Curso.ComercioElectronico.Test.csproj",
       "projectName": "Curso.ComercioElectronico.Test",
-      "projectPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Test\\Curso.ComercioElectronico.Test.csproj",
+      "projectPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Test\\Curso.ComercioElectronico.Test.csproj",
       "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-      "outputPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Test\\obj\\",
+      "outputPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5964,8 +5964,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj": {
-              "projectPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj"
+            "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj": {
+              "projectPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj"
             }
           }
         }

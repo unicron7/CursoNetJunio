@@ -1811,11 +1811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Aplicacion\\Curso.ComercioElectronico.Aplicacion.csproj",
+      "projectUniqueName": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Aplicacion\\Curso.ComercioElectronico.Aplicacion.csproj",
       "projectName": "Curso.ComercioElectronico.Aplicacion",
-      "projectPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Aplicacion\\Curso.ComercioElectronico.Aplicacion.csproj",
+      "projectPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Aplicacion\\Curso.ComercioElectronico.Aplicacion.csproj",
       "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-      "outputPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Aplicacion\\obj\\",
+      "outputPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1834,11 +1834,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj": {
-              "projectPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj"
+            "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj": {
+              "projectPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj"
             },
-            "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Infraestructura\\Curso.ComercioElectronico.Infraestructura.csproj": {
-              "projectPath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Infraestructura\\Curso.ComercioElectronico.Infraestructura.csproj"
+            "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Infraestructura\\Curso.ComercioElectronico.Infraestructura.csproj": {
+              "projectPath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Infraestructura\\Curso.ComercioElectronico.Infraestructura.csproj"
             }
           }
         }

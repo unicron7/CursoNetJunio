@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sOMgm7Gsk46brkgr7yxLN1GHgqnjxpue4tcmGt2aWtT5EonsOo66glWtMs1awwuiOyzikFkuJtvNEwOIl4YlCA==",
+  "dgSpecHash": "3niWTUEm0qnkZVyhK4BKMFNl4V7oj+dxydWgbsTdDsscx/2odWTkDSd86ljOJuAfGzEsueQHDMJQe/fjRyrJ9Q==",
   "success": true,
-  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Test\\Curso.ComercioElectronico.Test.csproj",
+  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Test\\Curso.ComercioElectronico.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Will\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Will\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

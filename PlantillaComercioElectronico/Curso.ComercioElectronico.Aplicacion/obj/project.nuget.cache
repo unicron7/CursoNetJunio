@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sv/lpfZCwQCc67qd1o4E9c+UOqe+j8zfUJnTJmpKi2Rm+w1aFlU4yNfU4rIMSIE1TcHrLdO/3MbrQ+HDxU15cw==",
+  "dgSpecHash": "7ITcCfLRbW9uaStot4ikVgIFse+yM9xmAtR0AfExFELnK7JEr/g4fRRfZzYrocX2C9Iabwp8Tx8NLxusMXNnZA==",
   "success": true,
-  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Aplicacion\\Curso.ComercioElectronico.Aplicacion.csproj",
+  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Aplicacion\\Curso.ComercioElectronico.Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Will\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

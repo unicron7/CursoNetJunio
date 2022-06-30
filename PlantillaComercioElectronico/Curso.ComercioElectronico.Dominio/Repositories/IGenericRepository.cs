@@ -16,6 +16,12 @@ namespace Curso.ComercioElectronico.Dominio.Repositories
         Task<ICollection<T>> GetAsync();
 
         /// <summary>
+        /// Obtener un objeto Queryable
+        /// </summary>
+        /// <returns></returns>
+        IQueryable<T> GetQueryable();
+
+        /// <summary>
         /// Obtener un objeto por su clave primaria de tipo string
         /// </summary>
         /// <param name="code"></param>
@@ -29,5 +35,10 @@ namespace Curso.ComercioElectronico.Dominio.Repositories
         /// <returns></returns>
         Task<T> GetAsync(Guid id);
 
+        Task CreateAsync(T entity);
+
+        Task UpdateAsync(T entity);
+        
+        Task DeleteAsync(T entity);
     }
 }

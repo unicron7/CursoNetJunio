@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hWldVQPw/epxGRWVVlixyA9WHp6joRv2gujfo8WY2uzE40FEDfW/KZiwSq/tJ7cVInPmpBpTeRYB1RW6OKDRiA==",
+  "dgSpecHash": "Vv1VJrDiSLA/dnCG/XmSWfiEM+WKjs7k5GJzjRHgeyWQ3NkgIbVwS4ziSci0OPFZjkI+pnQKtBqBq3OYHxcE7w==",
   "success": true,
-  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj",
+  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Dominio\\Curso.ComercioElectronico.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

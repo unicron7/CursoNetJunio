@@ -1,4 +1,5 @@
-﻿using Curso.ComercioElectronico.Aplicacion.Services;
+﻿using Curso.ComercioElectronico.Aplicacion.Dtos;
+using Curso.ComercioElectronico.Aplicacion.Services;
 using Curso.ComercioElectronico.Dominio.Entities;
 using Curso.ComercioElectronico.Dominio.Repositories;
 using System;
@@ -18,14 +19,67 @@ namespace Curso.ComercioElectronico.Aplicacion.ServicesImpl
             this.repository = repository;
         }
 
-        public async Task<ICollection<Brand>> GetAsync()
+        public async Task<ICollection<BrandDto>> GetAllAsync()
         {
-            return await repository.GetAsync();
+            var query= await repository.GetAsync();
+
+            var result = query.Select(x => new BrandDto { 
+                Code = x.Code,
+                Description = x.Description,
+                CreationDate = x.CreationDate
+            });
+
+            return result.ToList();
         }
 
-        public async Task<Brand> GetAsync(string id)
+        public async Task<BrandDto> GetAsync(string code)
         {
-            return await repository.GetAsync(id);
+            var entity = await repository.GetAsync(code);
+            return new BrandDto
+            {
+                Code = entity.Code,
+                Description = entity.Description,
+                CreationDate = entity.CreationDate
+            };
         }
+
+        public async Task CreateAsync(CreateUpdateBrandDto brandDto)
+        {
+            var brand = new Brand {
+                Code = brandDto.Code,
+                Description = brandDto.Description,
+                CreationDate = DateTime.Now
+            };
+            
+            await repository.CreateAsync(brand);
+        }
+
+        public async Task UpdateAsync(CreateUpdateBrandDto brandDto)
+        {
+            var entity = await repository.GetAsync(brandDto.Code);
+            if (entity == null)
+            {
+                throw new Exception($"La entidad con código: {brandDto.Code} no existe");
+            }
+            entity.Description = brandDto.Description;
+            entity.ModifiedDate = DateTime.Now;
+
+            await repository.UpdateAsync(entity);
+        }
+
+        public async Task DeleteAsync(string code)
+        {
+            var entity = await repository.GetAsync(code);
+            if (entity == null)
+            {
+                throw new Exception($"La entidad con código: {code} no existe");
+            }
+
+            entity.IsDeleted = true;
+            entity.ModifiedDate = DateTime.Now;
+
+            await repository.UpdateAsync(entity);
+        }
+        
     }
 }

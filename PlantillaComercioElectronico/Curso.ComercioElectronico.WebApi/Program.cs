@@ -40,6 +40,7 @@ builder.Services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
 builder.Services.AddTransient(typeof(ICatalogoAplicacion), typeof(CatalogoAplicacion));
 builder.Services.AddTransient<IProductAppService, ProductAppService>();
 builder.Services.AddTransient<IBrandAppService, BrandAppService>();
+builder.Services.AddTransient<IProductTypeAppService, ProductTypeAppService>();
 
 
 

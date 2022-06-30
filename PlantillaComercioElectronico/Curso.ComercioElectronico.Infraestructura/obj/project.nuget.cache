@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ofkineJYmu76itl6KDgbO0wNQDRltof8/7XdAbHtS+dgJeKZjDzPhznNR+baitGiYKnKVSofi7bWLLK6KLFRZQ==",
+  "dgSpecHash": "nEB3WW4mNUy4SoofZRn3MPIR7hcZST1fhpQZNXGRGTuiP9h2ItPr7hWOOGb1fJf70hr+cssK3gt7AtHcA5zgDA==",
   "success": true,
-  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\Traning\\.NetBasico\\EntityFramework\\Curso.ComercioElectronico.Infraestructura\\Curso.ComercioElectronico.Infraestructura.csproj",
+  "projectFilePath": "D:\\willinf\\Documents\\GitHub\\CursoNetJunio\\PlantillaComercioElectronico\\Curso.ComercioElectronico.Infraestructura\\Curso.ComercioElectronico.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Will\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
