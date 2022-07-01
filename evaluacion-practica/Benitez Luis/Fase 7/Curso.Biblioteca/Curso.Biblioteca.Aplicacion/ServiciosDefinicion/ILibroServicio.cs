@@ -10,8 +10,10 @@ namespace Curso.Biblioteca.Aplicacion.Servicios_Definicion
     public interface ILibroServicio
     {
         Task<ICollection<LibroDto>> GetAllAsync();
+        Task<LibroDto> GetByIdAsync(int id);
         Task<bool> CreateAsync(CrearLibroDto libro);
-        Task<bool> UpdateAsync(CrearLibroDto libro);
-        Task<bool> DeleteAsync(CrearLibroDto libro);
+
+        Task<bool> UpdateAsync(int id, CrearLibroDto libroDto);
+        Task<bool> DeleteAsync(int id);
     }
 }

@@ -9,6 +9,6 @@ namespace Curso.Biblioteca.Aplicacion.Dto
     public class CrearEditorialDto
     { 
         public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public string Direccion { get; set; }
     }
 }

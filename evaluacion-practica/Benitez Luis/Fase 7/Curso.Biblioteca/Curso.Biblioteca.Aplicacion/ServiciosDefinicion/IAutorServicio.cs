@@ -10,9 +10,10 @@ namespace Curso.Biblioteca.Aplicacion.Servicios_Definicion
 {
     public interface IAutorServicio
     {
-        IQueryable<AutorDto> GetAllAsync();
-        Task CreateAsync(AutorDto autor);
-        Task UpdateAsync(AutorDto autor);
-        Task DeleteAsync(AutorDto autor);
+        Task<ICollection<AutorDto>> GetAllAsync();
+        Task<AutorDto> GetByIdAsync(int id);
+        Task<bool> CreateAsync(CrearAutorDto autor);
+        Task<bool> UpdateAsync(int id, CrearAutorDto autorDto);
+        Task<bool> DeleteAsync(int id);
     }
 }
