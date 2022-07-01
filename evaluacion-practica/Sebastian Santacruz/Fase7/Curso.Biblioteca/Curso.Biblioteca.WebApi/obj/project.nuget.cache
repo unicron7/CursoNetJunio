@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YF4qIhx29Ab/YpOTRZZ04hRgX5pCF6Kru0tNRwFGKO1cmqUDDZ40zw8DUG/BsyNYtRUJca2696koXdDXIvkSAA==",
+  "dgSpecHash": "8WarGCi8rFJZAWYlst0qPoSX4LLYHHojGmAl2Fykiv4Fq+VeLo6bjBod5R3mRCoEjOZsC4UsdQqfbtu4urcahA==",
   "success": true,
-  "projectFilePath": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase6\\Curso.Biblioteca\\Curso.Biblioteca.WebApi\\Curso.Biblioteca.WebApi.csproj",
+  "projectFilePath": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase7\\Curso.Biblioteca\\Curso.Biblioteca.WebApi\\Curso.Biblioteca.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

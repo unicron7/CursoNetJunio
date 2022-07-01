@@ -1,4 +1,5 @@
-﻿using Curso.Biblioteca.Dominio.Entidades;
+﻿using Curso.Biblioteca.Aplicacion.Dto;
+using Curso.Biblioteca.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,8 @@ namespace Curso.Biblioteca.Aplicacion.ServicioInterfaz
     {
         Task<ICollection<Libro>> GetAllAsync();
         Task<Libro> GetByIdAsync(int Id);
-        Task<Libro> UpdateAsync(Libro libro);
-        Task<Libro> AddAsync(Libro libro);
+        Task<Libro> UpdateAsync(LibroDto libroDto);
+        Task<Libro> AddAsync(LibroDto libroDto);
         Task<bool> DeleteByIdAsync(int Id);
     }
 }

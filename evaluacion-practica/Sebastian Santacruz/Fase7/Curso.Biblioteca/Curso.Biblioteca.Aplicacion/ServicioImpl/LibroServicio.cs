@@ -1,4 +1,5 @@
-﻿using Curso.Biblioteca.Aplicacion.ServicioInterfaz;
+﻿using Curso.Biblioteca.Aplicacion.Dto;
+using Curso.Biblioteca.Aplicacion.ServicioInterfaz;
 using Curso.Biblioteca.Dominio.Entidades;
 using Curso.Biblioteca.Dominio.RepositorioInterfaz;
 using Microsoft.EntityFrameworkCore;
@@ -19,8 +20,16 @@ namespace Curso.Biblioteca.Aplicacion.ServicioImpl
             this.libroRepositorio = libroRepositorio;
         }
 
-        public async Task<Libro> AddAsync(Libro libro)
+        public async Task<Libro> AddAsync(LibroDto libroDto)
         {
+            var libro = new Libro
+            {
+                Id = libroDto.Id,
+                Titulo = libroDto.Titulo,
+                ISBN = libroDto.ISBN,
+                AutorId = libroDto.AutorId,
+                EditorialId = libroDto.EditorialId,
+            };
             await libroRepositorio.AddAsync(libro);
             return libro;
         }
@@ -47,8 +56,16 @@ namespace Curso.Biblioteca.Aplicacion.ServicioImpl
             return libro;
         }
 
-        public async Task<Libro> UpdateAsync(Libro libro)
+        public async Task<Libro> UpdateAsync(LibroDto libroDto)
         {
+            var libro = new Libro
+            {
+                Id = libroDto.Id,
+                Titulo = libroDto.Titulo,
+                ISBN = libroDto.ISBN,
+                AutorId = libroDto.AutorId,
+                EditorialId = libroDto.EditorialId,
+            };
             await libroRepositorio.UpdateAsync(libro);
             return libro;
         }

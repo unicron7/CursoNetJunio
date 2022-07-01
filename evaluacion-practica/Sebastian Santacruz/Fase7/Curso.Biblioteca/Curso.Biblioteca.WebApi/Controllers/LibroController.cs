@@ -1,4 +1,5 @@
-﻿using Curso.Biblioteca.Aplicacion.ServicioInterfaz;
+﻿using Curso.Biblioteca.Aplicacion.Dto;
+using Curso.Biblioteca.Aplicacion.ServicioInterfaz;
 using Curso.Biblioteca.Dominio.Entidades;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -17,9 +18,9 @@ namespace Curso.Biblioteca.WebApi.Controllers
         }
 
         [HttpPost]
-        public Task<Libro> AddAsync(Libro libro)
+        public Task<Libro> AddAsync(LibroDto libroDto)
         {
-            return servicio.AddAsync(libro);
+            return servicio.AddAsync(libroDto);
         }
 
         [HttpDelete]
@@ -41,9 +42,9 @@ namespace Curso.Biblioteca.WebApi.Controllers
         }
 
         [HttpPut]
-        public Task<Libro> UpdateAsync(Libro libro)
+        public Task<Libro> UpdateAsync(LibroDto libroDto)
         {
-            return servicio.UpdateAsync(libro);
+            return servicio.UpdateAsync(libroDto);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase6\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj": {}
+    "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase7\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase6\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj": {
+    "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase7\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase6\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj",
+        "projectUniqueName": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase7\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj",
         "projectName": "Curso.Biblioteca.Dominio",
-        "projectPath": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase6\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj",
+        "projectPath": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase7\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\Curso.Biblioteca.Dominio.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase6\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\obj\\",
+        "outputPath": "C:\\Prueba\\CursoNetJunio\\evaluacion-practica\\Sebastian Santacruz\\Fase7\\Curso.Biblioteca\\Curso.Biblioteca.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
