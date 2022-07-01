@@ -1,0 +1,17 @@
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\bin\Debug\net6.0\AdministracionPagos.Infraestructura.deps.json
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\bin\Debug\net6.0\AdministracionPagos.Infraestructura.runtimeconfig.json
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\bin\Debug\net6.0\AdministracionPagos.Infraestructura.dll
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\bin\Debug\net6.0\AdministracionPagos.Infraestructura.pdb
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\bin\Debug\net6.0\AdministracionPagos.Dominio.dll
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\bin\Debug\net6.0\AdministracionPagos.Dominio.pdb
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.csproj.AssemblyReference.cache
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.AssemblyInfoInputs.cache
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.AssemblyInfo.cs
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.csproj.CoreCompileInputs.cache
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.csproj.CopyComplete
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.dll
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\refint\AdministracionPagos.Infraestructura.dll
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.pdb
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\AdministracionPagos.Infraestructura.genruntimeconfig.cache
+D:\Development\source\repos\AdministracionPagos\AdministracionPagos.Infraestructura\obj\Debug\net6.0\ref\AdministracionPagos.Infraestructura.dll
