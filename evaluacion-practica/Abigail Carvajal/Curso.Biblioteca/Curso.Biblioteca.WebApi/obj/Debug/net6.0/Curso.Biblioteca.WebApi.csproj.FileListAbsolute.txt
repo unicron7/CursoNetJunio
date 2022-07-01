@@ -128,3 +128,5 @@ C:\Users\abita\Documents\PruebaPracticaNet\CursoNetJunio\evaluacion-practica\Abi
 C:\Users\abita\Documents\PruebaPracticaNet\CursoNetJunio\evaluacion-practica\Abigail Carvajal\Curso.Biblioteca\Curso.Biblioteca.WebApi\obj\Debug\net6.0\Curso.Biblioteca.WebApi.pdb
 C:\Users\abita\Documents\PruebaPracticaNet\CursoNetJunio\evaluacion-practica\Abigail Carvajal\Curso.Biblioteca\Curso.Biblioteca.WebApi\obj\Debug\net6.0\Curso.Biblioteca.WebApi.genruntimeconfig.cache
 C:\Users\abita\Documents\PruebaPracticaNet\CursoNetJunio\evaluacion-practica\Abigail Carvajal\Curso.Biblioteca\Curso.Biblioteca.WebApi\obj\Debug\net6.0\ref\Curso.Biblioteca.WebApi.dll
+C:\Users\abita\Documents\PruebaPracticaNet\CursoNetJunio\evaluacion-practica\Abigail Carvajal\Curso.Biblioteca\Curso.Biblioteca.WebApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\abita\Documents\PruebaPracticaNet\CursoNetJunio\evaluacion-practica\Abigail Carvajal\Curso.Biblioteca\Curso.Biblioteca.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
