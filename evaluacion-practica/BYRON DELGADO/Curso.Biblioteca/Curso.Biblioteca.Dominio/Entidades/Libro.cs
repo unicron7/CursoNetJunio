@@ -15,6 +15,5 @@ namespace Curso.Biblioteca.Dominio.Entidades
         public Autor Autor { get; set; }
         public int EditorialId { get; set; }
         public Editorial Editorial { get; set; }
-
     }
 }
