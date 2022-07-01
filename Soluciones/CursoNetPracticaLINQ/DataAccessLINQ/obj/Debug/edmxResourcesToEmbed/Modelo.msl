@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CursosVirtualesModelStoreContainer" CdmEntityContainer="CursosVirtualesEntities">
+    <EntitySetMapping Name="Continentes">
+      <EntityTypeMapping TypeName="CursosVirtualesModel.Continentes">
+        <MappingFragment StoreEntitySet="Continentes">
+          <ScalarProperty Name="ContinenteId" ColumnName="ContinenteId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cursos">
+      <EntityTypeMapping TypeName="CursosVirtualesModel.Cursos">
+        <MappingFragment StoreEntitySet="Cursos">
+          <ScalarProperty Name="CursoId" ColumnName="CursoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Idioma" ColumnName="Idioma" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paises">
+      <EntityTypeMapping TypeName="CursosVirtualesModel.Paises">
+        <MappingFragment StoreEntitySet="Paises">
+          <ScalarProperty Name="PaisId" ColumnName="PaisId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Capital" ColumnName="Capital" />
+          <ScalarProperty Name="Poblacion" ColumnName="Poblacion" />
+          <ScalarProperty Name="Establecido" ColumnName="Establecido" />
+          <ScalarProperty Name="ContinenteId" ColumnName="ContinenteId" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personas">
+      <EntityTypeMapping TypeName="CursosVirtualesModel.Personas">
+        <MappingFragment StoreEntitySet="Personas">
+          <ScalarProperty Name="PersonaId" ColumnName="PersonaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Genero" ColumnName="Genero" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Identificador" ColumnName="Identificador" />
+          <ScalarProperty Name="TipoPersona" ColumnName="TipoPersona" />
+          <ScalarProperty Name="PaisId" ColumnName="PaisId" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CursoPersona" TypeName="CursosVirtualesModel.CursoPersona" StoreEntitySet="CursoPersona">
+      <EndProperty Name="Cursos">
+        <ScalarProperty Name="CursoId" ColumnName="Curso_CursoId" />
+      </EndProperty>
+      <EndProperty Name="Personas">
+        <ScalarProperty Name="PersonaId" ColumnName="Persona_PersonaId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

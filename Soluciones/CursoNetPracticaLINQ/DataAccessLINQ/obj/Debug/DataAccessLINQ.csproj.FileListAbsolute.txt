@@ -1,0 +1,12 @@
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\DataAccessLINQ.dll.config
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\DataAccessLINQ.dll
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\DataAccessLINQ.pdb
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\EntityFramework.dll
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\EntityFramework.xml
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\obj\Debug\DataAccessLINQ.csproj.AssemblyReference.cache
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\obj\Debug\DataAccessLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\obj\Debug\DataAccessLINQ.csproj.CopyComplete
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\obj\Debug\DataAccessLINQ.dll
+C:\Users\Will\source\repos\CursoNetPracticaLINQ\DataAccessLINQ\obj\Debug\DataAccessLINQ.pdb
