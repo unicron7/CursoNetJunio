@@ -19,7 +19,7 @@ namespace Curso.Biblioteca.Infraestructura
 
         protected override void OnConfiguring(DbContextOptionsBuilder constructor)
         {
-            var cadenaConexion = @"Server=DESKTOP-6HAFIB0; DataBase=PruebaPractica;Trusted_Connection=True";
+            var cadenaConexion = @"Server=(localdb)\mssqllocaldb; DataBase=PruebaPractica;Trusted_Connection=True";
             constructor.UseSqlServer(cadenaConexion);
         }
     }
