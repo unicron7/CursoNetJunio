@@ -10,7 +10,11 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TestComponent } from './components/test/test.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './components/home/home.component';
+import { BASE_URL } from './models/constanst';
+import { environment } from 'src/environments/environment';
 
 
 @NgModule({
@@ -21,15 +25,22 @@ import { FormsModule } from '@angular/forms';
     ProductTypeComponent,
     NavBarComponent,
     FooterComponent,
-    TestComponent
+    TestComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgbModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide:BASE_URL, useValue:(environment.baseUrl.length > 0 ? environment.baseUrl : 'https://localhost:5000')
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
